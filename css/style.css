@@ -1,0 +1,593 @@
+@import url('https://fonts.googleapis.com/css?family=Itim|Montserrat');
+
+/* === CSS FOR INDEX PAGE === */
+body{
+    padding:0;
+    margin:0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFCAB1;
+    color: white;
+    align-items:flex-end;
+    margin-bottom: 20px;
+ 
+}
+
+.logo h1{
+    position: relative; 
+    top: -30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    margin: 10px;
+    
+}
+
+.logo img{
+    width: 100px;
+    /*margin: 40px;*/
+}
+
+
+ul {
+    list-style-type: none;
+    margin-right:70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+li a {
+    display: block;
+    padding: 20px 10px;
+    text-decoration: none;
+    color: white;
+    /*list-style: none;*/
+    justify-content: space-around;
+    margin-right: 15px;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*#navigation li a:active {*/
+/*        background: #000000;*/
+/*}*/
+
+.dream {
+    display: block;
+    margin: auto;
+    width: 70%;
+    height: 50%;
+    border: 3px solid #28AFB0;
+}
+
+.dream img{
+    display: block;
+    width: 70%;
+    margin: auto;
+}
+.homeintro{
+    color: #000000;
+    font-size: 35px;
+    padding-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F7F7F7;
+}
+
+.profile{
+    color: #000000;
+    font-size: 30px;
+    /*border-style: solid;*/
+    border-width: 2px;
+    width: 200%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+
+.funfacts{
+    color: #000000;
+    font-size: 30px;
+    list-style-position: inside;
+    border-width: 2px;
+    width: 300%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+
+.islandsummer img{
+    display: block;
+    width: 80%;
+    height: 200%;
+    margin: auto;
+}
+
+.islandwinter img{
+    display: block;
+    width: 80%;
+    height: 200%;
+    margin: auto;
+}
+
+.topcontext {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F2F2F2;
+    margin: auto;
+    align-items: flex-end;
+    clear: both;
+    padding: 20px;
+    
+}    
+
+.bottomcontext{
+    display: flex;
+    justify-content: space-around;
+    background-color: #EBEBEB;
+    flex-direction: row-reverse;
+    margin: auto;
+    align-items: flex-end;
+    clear: both;
+    padding: 70px;
+}
+    
+    
+/* === CSS FOR PLACES PAGE === */
+
+
+h3 {
+    display: block;
+    border: 5px #f9b5ac;
+    margin: auto;
+    text-align: center;
+    background-color: #28AFB0;
+    color: white;
+    font-family: 'Itim', cursive;
+    font-size: 40px;
+}
+
+.contextp {
+    margin-top: 20px;
+}
+.unicorn {
+    clear: both;
+    display: block;
+    width: auto;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    }
+    
+.unicorn_image {
+    display: flex;
+    
+}  
+
+.mermaid_image {
+    display: flex;
+    
+}   
+.underwaterphoto_image {
+    display: flex;
+    
+}   
+.dance_image {
+    display: flex;
+    
+}   
+.flying_image {
+    display: flex;
+}
+
+.mermaid {
+    clear: both;
+    display: block;
+    width: auto;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+.underwaterphoto {
+    clear: both;
+    display: block;
+    width: auto;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+.dance {
+    clear: both;
+    display: block;
+    width: auto;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+.flying {
+    clear: both;
+    display: block;
+    width: auto;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+.unicorn p{
+    text-align: left;
+    font-size: 35px;
+    margin: 75px;
+    padding: 20px;
+    }  
+    
+.mermaid p{
+    text-align: left;
+    font-size: 35px;
+    margin: 80px;
+    padding: 60px;
+    
+    }   
+    
+.underwaterphoto p{
+    text-align: left;
+    font-size: 35px;
+    margin: 100px;
+    }
+    
+.dance p{
+    text-align: left;
+    font-size: 35px;
+    margin: 100px;
+    }       
+    
+.flying p{
+    text-align: left;
+    font-size: 35px;
+    margin: 75px;
+    }       
+
+
+.unicorn img {
+    width: 50%;
+    height: 75%;
+    margin: 20px;
+    float: left;
+}
+
+.mermaid img {
+    width: 50%;
+    height: 75%;
+    margin: 20px;
+    float: left;
+}
+
+.underwaterphoto img {
+    width: 50%;
+    height: 75%;
+    margin: 20px;
+    float: left;
+}
+
+.dance img {
+    width: 50%;
+    height: 50%;
+    margin: 20px;
+    float: left;
+}
+
+.flying img {
+    width: 50%;
+    height: 75%;
+    margin: 20px;
+    float: left;
+}
+
+/* === CSS FOR CULTURE PAGE === */ 
+
+.cultureheader {
+    display: block;
+    border: 5px #f9b5ac;
+    margin: auto;
+    text-align: center;
+    background-color: #28AFB0;
+    color: white;
+    font-family: 'Itim', cursive;
+    font-size: 40px;
+}
+
+.culture_intro {
+     text-align: center;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 35px;
+     color: #000000; 
+}
+
+.culture_top {
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+.culture_top img {
+    width: 95%;
+}
+
+.culture_item1 img {
+    width: 87%;
+}
+
+.culture_bottom {
+    font-family: 'Montserrat', sans-serif;
+     font-size: 20px;
+     color: #000000;
+     padding: 30px;
+}
+
+.holidays_intro {
+     text-align: center;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 35px;
+     color: #000000; 
+}
+
+.holidaysheader {
+   display: block;
+    border: 5px #f9b5ac;
+    margin: auto;
+    text-align: center;
+    background-color: #28AFB0;
+    color: white;
+    font-family: 'Itim', cursive;
+    font-size: 40px;
+}
+
+.holidays_top {
+   display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+.holidays_top img {
+    width: 95%;
+}
+
+.holidays_bottom {
+    font-family: 'Montserrat', sans-serif;
+     font-size: 20px;
+     color: #000000;
+     text-align: left;
+     padding: 30px;
+}
+
+/* === CSS FOR FOOD PAGE === */ 
+
+.visit h1{
+      font-family: 'Itim', cursive;
+      font-size: 35px;
+      display: block;
+      width: auto;
+      border: 5px #f9b5ac;
+      margin: auto;
+      text-align: center;
+      background-color: #28AFB0;
+      color: white;
+}
+
+.dreamer h3{
+      font-family: 'Itim', cursive;
+      font-size: 35px;
+      display: block;
+      width: auto;
+      border: 5px #f9b5ac;
+      margin: auto;
+      text-align: center;
+      background-color: #28AFB0;
+      color: white;
+      padding-top: 5%
+   }
+   
+.taste h3{
+    font-family: 'Itim', cursive;
+    font-size: 40px;
+    display: block;
+    width: auto;
+    border: 5px #f9b5ac;
+    margin: auto;
+    text-align: center;
+    background-color: #28AFB0;
+    color: white;
+ }
+
+.eats h3{
+    font-family: 'Itim', cursive;
+    font-size: 40px;
+    display: block;
+    width: auto;
+    border: 5px #f9b5ac;
+    margin: auto;
+    text-align: center;
+    background-color: #28AFB0;
+    color: white;
+   
+}
+.foodintro {
+    text-align: left;
+    border: 5px #FFCAB1;
+    border-color: #FFCAB1;
+    font-size: 25px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.ocean img{
+  width: 100%
+}
+.food1 h2 {
+    font-family: 'Itim', cursive;
+    font-size: 35px;
+    display: block;
+    width: auto;
+    border: 5px #f9b5ac;
+    margin: auto;
+    text-align: center;
+    background-color: #28AFB0;
+    color: white; 
+}
+.food1 img{
+    display:flex;
+    width: 50%;
+    height: 75%;
+    margin: 20px;
+    float: left;
+    padding-right: 2%;
+     }
+    
+.food1 {
+   clear: both;
+   padding-top: 2%;
+   font-size: 20px;
+   text-align: left;
+   color: #000000;
+   font-size: 25px;
+   font-family: 'Montserrat', sans-serif;
+   } 
+   
+.food2 h2{
+    font-family: 'Itim', cursive;
+    font-size: 35px;
+    display: block;
+    width: auto;
+    border: 5px #f9b5ac;
+    margin: auto;
+    text-align: center;
+    background-color: #28AFB0;
+    color: white;
+}
+
+.food2 img{
+    display:flex;
+    width: 50%;
+    height: 75%;
+    margin: 20px;
+    float: right;
+    padding-left: 2%;
+    }
+    
+.food2 {
+  clear: both;
+  padding-top: 2%;
+  font-size: 20px;
+  text-align: left;
+  color: #000000;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+    }
+
+.food3 h2{
+    font-family: 'Itim', cursive;
+    font-size: 35px;
+    display: block;
+    width: auto;
+    border: 5px #f9b5ac;
+    margin: auto;
+    text-align: center;
+    background-color: #28AFB0;
+    color: white;
+}
+
+.food3 img{
+    display:flex;
+    width: 50%;
+    height: 75%;
+    margin: 20px;
+    float: left;
+    padding-right: 2%;
+    }
+    
+.food3 {
+    clear: both;
+    padding-top: 2%;
+    font-size: 20px;
+    text-align: left;
+    color: #000000;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+ }
+
+.food4 h2{
+    font-family: 'Itim', cursive;
+    font-size: 35px;
+    display: block;
+    width: auto;
+    border: 5px #f9b5ac;
+    margin: auto;
+    text-align: center;
+    background-color: #28AFB0;
+    color: white;
+}
+
+.food4 img{
+  display:flex;
+  width: 50%;
+  height: 75%;
+  margin: 20px;
+  float: right;  
+  padding-left: 2%;
+}
+
+.food4 {
+    clear: both;
+    padding-top: 2%;
+    font-size: 20px;
+    text-align: left;
+    color: #000000;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+ } 
+
+.food5 h2{
+    font-family: 'Itim', cursive;
+    font-size: 35px;
+    display: block;
+    width: auto;
+    border: 5px #f9b5ac;
+    margin: auto;
+    text-align: center;
+    background-color: #28AFB0;
+    color: white;
+}
+
+.food5 img{
+  display:flex;
+  width: 50%;
+  height: 75%;
+  margin: 20px;
+  float: left;  
+  padding-right: 2%;
+}
+
+.food5{
+    clear: both;
+    padding-top: 2%;
+    font-size: 20px;
+    text-align: left;
+    color: #000000;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
